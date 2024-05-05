@@ -1,0 +1,14 @@
+body{
+box-sizing: border-box;
+background-color: #285662;
+padding: 0px;
+margin: 0px;
+}
+.background{
+    width: 100%;
+}
+.background img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;  
+}
