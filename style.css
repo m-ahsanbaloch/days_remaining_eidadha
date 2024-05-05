@@ -5,13 +5,13 @@ body {
 }
 .background {
   width: 100%;
-  height: 100vh;
+  height: 600px;
   /* background-color: red; */
   background-image: url(Assets/images/eid_ul_adha.jpg) !important;
   background-repeat: no-repeat;
-  /* object-fit: cover; */
-  background-position: center;
-  background-size: 100%;
+  /* object-fit: contain; */
+  background-position:center;
+  /* background-size: 100%; */
   display: flex;
   justify-content: center;
   /* align-items: center; */
