@@ -12,8 +12,8 @@ days.value = Math.floor(conversion / (1000 * 60 * 60 * 24) - 31).toString();
 if (days.value == -1) {
   days.value = "0";
 }
-hours.value = Math.floor(conversion / (1000 * 60 * 60) % 24);
-minutes.value = Math.floor(conversion / (1000 * 60) % 60);
+hours.value = Math.floor((conversion / (1000 * 60 * 60)) % 24);
+minutes.value = Math.floor((conversion / (1000 * 60)) % 60);
 seconds.value = Math.floor(conversion / 1000) % 60;
 // ================= Calculations-End ===============/
 // console.log();
