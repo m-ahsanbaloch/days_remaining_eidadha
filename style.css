@@ -10,7 +10,7 @@ body {
   background-image: url(Assets/images/eid_ul_adha.jpg) !important;
   background-repeat: no-repeat;
   /* object-fit: contain; */
-  background-position:center;
+  background-position: center;
   /* background-size: 100%; */
   display: flex;
   justify-content: center;
