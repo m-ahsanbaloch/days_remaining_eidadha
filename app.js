@@ -8,7 +8,10 @@ var date = new Date().getTime();
 var eid = new Date("16 june 2024").getTime();
 var conversion = eid - date;
 months.value = Math.floor(conversion / (1000 * 60 * 60 * 24 * 31));
-days.value = Math.floor(conversion / (1000 * 60 * 60 * 24));
+days.value = Math.floor(conversion / (1000 * 60 * 60 * 24) - 31).toString();
+if (days.value == -1) {
+  days.value = "0";
+}
 hours.value = Math.floor(conversion / (1000 * 60 * 60));
 minutes.value = Math.floor(conversion / (1000 * 60));
 seconds.value = Math.floor(conversion / 1000);
