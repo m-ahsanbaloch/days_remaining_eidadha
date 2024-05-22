@@ -20,3 +20,4 @@ function calculation() {
 // ================= Calculations-End ===============/
 setInterval(calculation, 1000);
 // console.log();
+ 
