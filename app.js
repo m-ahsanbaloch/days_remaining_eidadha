@@ -6,7 +6,7 @@ var seconds = document.getElementById("seconds");
 // ================= Calculations-Started ===============/
 function calculation() {
   var date = new Date().getTime();
-  var eid = new Date("17 june 2024").getTime();
+  var eid = new Date("06 june 2025").getTime();
   var conversion = eid - date;
   months.value = Math.floor(conversion / (1000 * 60 * 60 * 24 * 31));
   days.value = Math.floor((conversion / (1000 * 60 * 60 * 24)) % 31).toString();
